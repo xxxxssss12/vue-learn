@@ -1,10 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <el-button @click="visible = true">el-button</el-button>
-    <el-dialog :visible.sync="visible" title="Hello world">
-      <p>Try Element</p>
-    </el-dialog>
   </div>
 </template>
 

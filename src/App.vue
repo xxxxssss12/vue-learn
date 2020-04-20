@@ -3,7 +3,6 @@
     <img src="./assets/logo.png">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
     </div>
     <router-view/>
     <div>
@@ -12,10 +11,6 @@
         <code v-text="'<el-button>'"></code>
         below
       </p>
-      <el-button @click="visible = true">el-button</el-button>
-      <el-dialog :visible.sync="visible" title="Hello world">
-        <p>Try Element</p>
-      </el-dialog>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
