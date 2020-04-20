@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <div id="nav">
       <router-link to="/">Home</router-link> |
     </div>
@@ -22,7 +21,9 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'app',
   data: function() {
-    return { visible: false }
+    return { visible: false,
+      message:"test message"
+    }
   },
   components: {
     HelloWorld
